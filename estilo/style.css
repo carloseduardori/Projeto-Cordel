@@ -61,7 +61,7 @@ main>section p {
 }
 
 section.diferente {
-    background-image: url(/guanabaramodulo02/DESAFIOS/DESAFIO011/imagens/background001.jpg);
+    background-image: url(/imagens/background001.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@ section.diferente p {
 }
 
 section.diferente2 {
-    background-image: url(/guanabaramodulo02/DESAFIOS/DESAFIO011/imagens/background002.jpg);
+    background-image: url(/imagens/background002.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
