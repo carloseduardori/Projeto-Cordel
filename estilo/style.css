@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html,
+body {
+    background-color: white;
+}
+
+/* HEADER */
+
+header {
+    background-color: black;
+    min-height: auto;
+    font-size: 4.5em;
+    text-align: center;
+}
+
+header>h1 {
+    color: white;
+    font-family: 'Passion One', cursive;
+    font-variant: small-caps;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+nav>p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+a.link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN */
+
+main>section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
+main>section p {
+    font-family: 'Sriracha';
+    font-size: 3em;
+    padding: 70px 30px 20px 30px;
+    padding-bottom: 120px;
+}
+
+section.diferente {
+    background-image: url(/guanabaramodulo02/DESAFIOS/DESAFIO011/imagens/background001.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    box-shadow: inset 2px 2px 8px 1px rgba(0, 0, 0, 0.50);
+}
+
+section.diferente p {
+    background-color: rgba(0, 0, 0, 0.467);
+    width: 555px;
+    height: 600px;
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+    text-shadow: 0px 2px 3px black;
+}
+
+section.diferente2 {
+    background-image: url(/guanabaramodulo02/DESAFIOS/DESAFIO011/imagens/background002.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    box-shadow: inset 2px 2px 13px 0px rgb(0 0 0 / 50%);
+}
+
+section.diferente2>p {
+    background-color: rgba(0, 0, 0, 0.467);
+    width: 575px;
+    height: 600px;
+    display: inline-block;
+    padding: 0px 3px 0px 5px;
+    text-shadow: 0px 2px 3px black;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+}
+
+footer>p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer>p a {
+    color: white;
+    text-decoration: none;
+}
